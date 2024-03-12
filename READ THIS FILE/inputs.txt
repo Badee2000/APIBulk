@@ -1,0 +1,40 @@
+To enter json data for workers and users is as following (You can add multiple data):
+
+Workers:
+{
+    "workers": [
+        {
+            "user": "existing-user-uuid-1",
+            "worker_type": 2,
+            "is_busy": false
+        }
+    ]
+}
+
+Users:
+
+{
+    "users": [
+        {
+            "email": "user1@example.com",
+            "phone": "1112223333",
+            "first_name": "User",
+            "last_name": "One",
+            "role": 1
+        },
+        {
+            "email": "user2@example.com",
+            "phone": "4445556666",
+            "first_name": "User",
+            "last_name": "Two",
+            "role": 2
+        }
+    ]
+}
+
+
+
+
+
+
+
